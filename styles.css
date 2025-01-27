@@ -1,0 +1,21 @@
+#grid {
+    display:flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    border: 2px solid rgb(218, 211, 211);
+}
+
+
+.grid-square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#resize-btn{
+    background-color: black;
+    margin: 10px;
+    margin-left: 0px;
+    color: aliceblue;
+}
